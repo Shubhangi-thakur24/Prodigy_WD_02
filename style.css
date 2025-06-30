@@ -1,0 +1,114 @@
+body {
+    font-family : 'Arial',sans-serif;
+    text-align : center;
+    background : linear-gradient(135deg,#1e1e2f, #1b1b1d);
+    color:#fff;
+    text-align: center;
+    padding : 80px;
+    transition: background 0.4s ease;
+}
+
+body.dark {
+  background: linear-gradient(135deg, #1e1e2f, #3c3b54);
+  color: #000000;
+}
+
+body.light {
+  background: linear-gradient(135deg, #ffffff, #8b929c);
+  color: #29292b;
+}
+
+.container{
+    background: rgba(0, 0, 0, 0.8);
+    padding : 30px;
+    border-radius : 16px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    max-width: 800px;
+    height: 500px;
+    margin : auto;
+}
+h1{
+    font-size: 60px;
+    margin-bottom: 40px ;
+    letter-spacing: 8px;
+    color:aliceblue
+}
+.display{
+    font-size: 80px;
+    margin: 30px 0;
+    color: #dbf2ed;
+}
+
+.buttons button {
+    margin: 10px 6px;
+    padding : 5px 30px;
+    font-size : 20px;
+    background-color: #0e9b12;
+    color: #12121b;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button{
+    background-color: #fd0707;
+    color: #000000;
+   
+}   
+
+.buttons button:hover{
+    background-color: #008b33;
+    transform: scale(1.05);
+}
+
+.buttons button #laps{
+    list-style : none;
+    padding : 0;
+   
+}
+
+.lap-section {
+  max-width: 420px;
+  margin: 30px auto;
+  background: rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.lap-section h2 {
+  margin-bottom: 10px;
+  color: #374240; 
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+
+ 
+
+#laps li {
+  background: rgba(255, 255, 255, 0.1);
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 18px;
+}
+.themetoggle{
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid #00ffcc;
+    color: #000000;
+    padding: 8px 16px;
+    border-radius: 12px;
+}
+#themetoggle button:hover{
+    background-color:#00ffcc;
+    transform: scale(1.05);
+}
